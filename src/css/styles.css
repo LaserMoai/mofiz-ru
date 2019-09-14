@@ -779,7 +779,7 @@ a {
 
 .contact-us__phone-number {
     grid-area: phone-number;
-    
+    width: 100%;
 }
 
 .contact-us__message {
