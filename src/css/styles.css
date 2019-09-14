@@ -106,7 +106,7 @@ div, p, span {
 
 .button:hover {
     background-color: #ff8822;
- 
+    
 }
 
 .button:active {
@@ -266,7 +266,7 @@ a {
 }
 
 .main-nav__link--active {
-color: #ff6600; 
+    color: #ff6600; 
 }
 
 .hero__content-container {
@@ -408,7 +408,7 @@ color: #ff6600;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
     line-height: 3rem;
-margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 @media all and (max-width: 768px) { 
@@ -621,7 +621,7 @@ margin-bottom: 2em;
 
 @media all and (max-width: 768px) { 
     .blog__item {
-       text-align: center; 
+        text-align: center; 
     }
 }
 
@@ -703,7 +703,7 @@ margin-bottom: 2em;
 
 .opinion-carousel {
     text-align: center;
-
+    
     width: 75%;
     margin: 0 auto 40px auto;
 }
@@ -799,6 +799,7 @@ margin-bottom: 2em;
 .map__element {
     width: 100%;
     height: 500px;
+    filter: grayscale(100%);
 }
 
 .page-footer {
@@ -835,7 +836,7 @@ margin-bottom: 2em;
 }
 
 .socials__button:hover {
-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .socials__button:hover {
