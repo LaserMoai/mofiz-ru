@@ -209,6 +209,7 @@ a {
     border-radius: 43px;
     padding: 30px;
     border: none;
+    outline: none;
 }
 
 @media all and (max-width: 480px) { 
@@ -609,12 +610,10 @@ a {
             justify-content: space-between;
 }
 
-
-@media all and (max-width: 768px) { 
+@media all and (max-width: 1280px) { 
     .team__list {
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
 }
 
@@ -719,13 +718,15 @@ a {
             justify-content: space-between;
 }
 
-
-@media all and (max-width: 768px) { 
+@media all and (max-width: 1280px) { 
     .blog__carousel {
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-    }
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    }   
+}
+
+.blog__item {
+    max-width: 360px;
 }
 
 @media all and (max-width: 768px) { 
@@ -814,9 +815,14 @@ a {
 
 .opinion-carousel {
     text-align: center;
-    
     width: 75%;
     margin: 0 auto 40px auto;
+}
+
+@media all and (max-width: 480px) { 
+    .opinion-carousel {
+        width: 100%;    
+    }
 }
 
 .opinion-carousel__text {
