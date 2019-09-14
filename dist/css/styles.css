@@ -901,6 +901,10 @@ a {
 
 .contact-us__message {
     grid-area: message;
+    resize: none;
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
 }
 
 .contact-us__button-container{

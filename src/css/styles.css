@@ -784,6 +784,8 @@ a {
 
 .contact-us__message {
     grid-area: message;
+    resize: none;
+    appearance: textfield;
 }
 
 .contact-us__button-container{
