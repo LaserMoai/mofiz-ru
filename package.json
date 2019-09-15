@@ -1,22 +1,13 @@
 {
-	"name": "project-name",
-	"version": "0.0.1",
-	"description": "A description for your project.",
-	"main": "./dist/your-main-js-file.js",
+	"name": "mofiz-ru",
+	"version": "0.1.0",
 	"author": {
-		"name": "YOUR NAME",
-		"url": "http://link-to-your-website.com"
+		"name": "Daniil Zhilin",
+		"url": "https://github.com/LaserMoai/"
 	},
-	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "http://link-to-your-git-repo.com"
-	},
-	"boilerplate": {
-		"version": "2.2.4",
-		"author": "Chris Ferdinandi",
-		"url": "https://gomakethings.com",
-		"repo": "http://github.com/cferdinandi/gulp-boilerplate"
+		"url": "https://github.com/LaserMoai/mofiz-ru"
 	},
 	"browserslist": [
 		"last 2 versions",
