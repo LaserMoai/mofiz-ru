@@ -577,6 +577,10 @@ a {
     color: #ff6600;
 }
 
+.service-list__text-box {
+    padding-top: 8px;
+}
+
 @media all and (max-width: 480px) { 
     .service-list__text-box {
         text-align: center;
@@ -584,7 +588,7 @@ a {
 }
 
 .service-list__heading {
-    margin: 8px 0 15px 0;
+    margin-bottom: 15px;
     text-transform: uppercase;
     font-size: 2.4rem;
 }
@@ -849,6 +853,7 @@ a {
     color: #ffffff;
 }
 
+
 .clients__list {    
     list-style: none;
     display: -webkit-box;
@@ -864,7 +869,18 @@ a {
 }
 
 .clients__image {
+    display: block;
     margin: 20px 25px;
+}
+
+.clients__image:hover {
+    -webkit-filter: brightness(1.2);
+            filter: brightness(1.2);
+}
+
+.clients__image:active {
+    -webkit-filter: brightness(1.25);
+            filter: brightness(1.25);
 }
 
 .contact-us__form {
