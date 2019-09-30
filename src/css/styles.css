@@ -1,3 +1,5 @@
+/* General Styles */
+
 html {
     box-sizing: border-box;
     font-size: 10px;
@@ -178,12 +180,11 @@ a {
 }
 
 
-/*     LOCAL STYLES
-*/
+/* Local Styles	*/
 
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
-    url("/img/hero-image.jpg");
+    url("../img/hero-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -551,15 +552,15 @@ a {
 }
 
 .team__photo-1 {
-    background-image: url("/img/team-01.jpg");
+    background-image: url("../img/team-01.jpg");
 }
 
 .team__photo-2 {
-    background-image: url("/img/team-02.jpg");    
+    background-image: url("../img/team-02.jpg");    
 }
 
 .team__photo-3 {
-    background-image: url("/img/team-03.jpg");
+    background-image: url("../img/team-03.jpg");
 }
 
 .team__caption {
@@ -668,7 +669,7 @@ a {
 
 .opinions {
     background-image: linear-gradient(rgba(2, 3, 3, 0.85), rgba(2, 3, 3, 0.85)), 
-    url("/img/opinions-bg.jpg");
+    url("../img/opinions-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
