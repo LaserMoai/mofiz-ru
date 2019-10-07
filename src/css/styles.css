@@ -469,6 +469,7 @@ a {
 @media all and (max-width: 480px) { 
 	.service-list__icon-box {
 		min-width: initial;
+		margin-bottom: 15px;
 	}
 }
 
@@ -496,6 +497,7 @@ a {
 .service-list__desc {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.8rem;
+	line-height: 1.5;
 }
 
 .team__carousel {
