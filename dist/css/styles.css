@@ -13,7 +13,7 @@ Local Styles
 - - - - - - - - -
 */
 
-/* General Styles */
+/* Global Styles */
 
 :root {
 	--primary-color: #ff6600;
@@ -283,12 +283,12 @@ a {
 	border: none;
 	outline: none;
 	z-index: 10;
+	cursor: pointer;
 }
 
 @media (max-width: 768px) {
 	.main-nav-toggle {
 		display: initial;
-		cursor: pointer;
 	}
 }
 
@@ -328,7 +328,6 @@ a {
 	letter-spacing: 0.14px;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-	cursor: pointer;
 }
 
 @media (max-width: 1280px) {
@@ -388,7 +387,7 @@ a {
 
 @media (max-width: 480px) {
 	.slogan {
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 		margin-bottom: 20px;
 	}
 }
