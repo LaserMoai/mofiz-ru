@@ -866,6 +866,10 @@ a {
 	        filter: brightness(1.25);
 }
 
+.clients__image {
+	width: 200px;
+}
+
 .contact-us__form {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
