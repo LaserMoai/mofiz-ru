@@ -832,6 +832,10 @@ a {
 	color: #ffffff;
 }
 
+.clients__heading {
+	margin-bottom: 20px;
+}
+
 .clients__list {
 	list-style: none;
 	display: -webkit-box;
