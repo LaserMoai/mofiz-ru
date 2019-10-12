@@ -82,6 +82,10 @@ a {
 	font-weight: 700;
 }
 
+.heading--small-margin {
+	margin-bottom: 20px;
+}
+
 .button {
 	display: block;
 	width: fit-content;
@@ -716,10 +720,6 @@ a {
 .opinion-carousel__job-title {
 	font-size: 2rem;
 	color: #ffffff;
-}
-
-.clients__heading {
-	margin-bottom: 20px;
 }
 
 .clients__list {
