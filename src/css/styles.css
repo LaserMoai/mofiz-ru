@@ -144,10 +144,13 @@ a {
 	display: flex;
 }
 
+.panel__item:not(:last-child) {
+	margin-right: 10px;
+}
+
 .panel__button {
 	width: 12px;
 	height: 12px;
-	margin: 5px;
 	border-radius: 50%;
 	border: 1px solid #cccccc;
 	outline: none;
@@ -356,6 +359,10 @@ a {
 	}
 }
 
+.hero-panel__item:not(:last-child) {
+	margin: 0 0 10px 0;
+}
+
 .hero-panel__button {
 	border-color: #fff;
 }
@@ -462,20 +469,42 @@ a {
 	}
 }
 
-.service-list__icon-box {
+.service-list__item::before {
 	min-width: 95px;
+	font-family: "Pe-icon-7-stroke";
+	font-size: 6rem;
+	color: var(--primary-color);
 }
 
 @media (max-width: 480px) {
-	.service-list__icon-box {
+	.service-list__item::before {
 		min-width: initial;
 		margin-bottom: 10px;
 	}
 }
 
-.service-list__icon {
-	font-size: 6rem;
-	color: var(--primary-color);
+.service-list__item--1st::before {
+	content: "\e634";
+}
+
+.service-list__item--2nd::before {
+	content: "\e63b";
+}
+
+.service-list__item--3rd::before {
+	content: "\e62c";
+}
+
+.service-list__item--4th::before {
+	content: "\e628";
+}
+
+.service-list__item--5th::before {
+	content: "\e65d";
+}
+
+.service-list__item--6th::before {
+	content: "\e6b5";
 }
 
 .service-list__text-box {
@@ -708,6 +737,7 @@ a {
 
 .opinion-carousel__name {
 	font-size: 3rem;
+	font-weight: 400;
 	color: #ffffff;
 	margin-bottom: 10px;
 }
