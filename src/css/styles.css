@@ -104,9 +104,9 @@ a {
 
 @media (max-width: 480px) {
 	.button {
-		padding: 10px 20px;
-		border-radius: 15px;
-		font-size: 1rem;
+		padding: 12px 25px;
+		border-radius: 18px;
+		font-size: 1.2rem;
 	}
 }
 
@@ -149,6 +149,7 @@ a {
 }
 
 .panel__button {
+	display: block;
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
@@ -178,7 +179,7 @@ a {
 
 .form-field {
 	font-size: 2rem;
-	border-radius: 43px;
+	border-radius: 42px;
 	padding: 30px;
 	border: none;
 	outline: none;
@@ -320,7 +321,7 @@ a {
 
 @media (max-width: 480px) {
 	.slogan {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 		margin-bottom: 20px;
 	}
 }
@@ -339,7 +340,7 @@ a {
 	list-style: none;
 	position: absolute;
 	top: 50%;
-	margin-top: -90px;
+	margin-top: -89px;
 	right: 40px;
 	display: flex;
 	flex-direction: column;
@@ -355,12 +356,23 @@ a {
 
 @media (max-width: 480px) {
 	.hero-panel {
-		right: 5px;
+		flex-direction: row;
+		top: auto;
+		right: auto;
+		bottom: 20px;
+		left: 50%;
+		margin: 0 0 0 -85px;
 	}
 }
 
 .hero-panel__item:not(:last-child) {
 	margin: 0 0 10px 0;
+}
+
+@media (max-width: 480px) {
+	.hero-panel__item:not(:last-child) {
+		margin: 0 10px 0 0;
+	}
 }
 
 .hero-panel__button {
@@ -436,6 +448,12 @@ a {
 	width: 100%;
 	margin-top: 10px;
 	box-shadow: 0 0 59px rgba(1, 1, 1, 0.2);
+}
+
+@media (max-width: 768px) {
+	.about-us__img {
+		box-shadow: none;
+	}
 }
 
 .service-list {
