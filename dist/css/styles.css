@@ -401,7 +401,7 @@ a {
 	list-style: none;
 	position: absolute;
 	top: 50%;
-	margin-top: -89px;
+	margin-top: -84px;
 	right: 40px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -784,7 +784,7 @@ a {
 }
 
 .blog__heading {
-	font-size: 1.8rem;
+	font-size: 1.7rem;
 	margin-bottom: 30px;
 }
 
