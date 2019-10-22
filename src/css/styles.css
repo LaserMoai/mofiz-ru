@@ -340,7 +340,7 @@ a {
 	list-style: none;
 	position: absolute;
 	top: 50%;
-	margin-top: -84px;
+	transform: translateY(-50%);
 	right: 40px;
 	display: flex;
 	flex-direction: column;
@@ -361,7 +361,7 @@ a {
 		right: auto;
 		bottom: 20px;
 		left: 50%;
-		margin: 0 0 0 -85px;
+		transform: translateX(-50%);
 	}
 }
 
