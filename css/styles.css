@@ -401,7 +401,8 @@ a {
 	list-style: none;
 	position: absolute;
 	top: 50%;
-	margin-top: -84px;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	right: 40px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -434,7 +435,8 @@ a {
 		right: auto;
 		bottom: 20px;
 		left: 50%;
-		margin: 0 0 0 -85px;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
 	}
 }
 
