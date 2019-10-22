@@ -622,7 +622,7 @@ a {
 }
 
 .service-list__text-box {
-	padding-top: 8px;
+	margin-top: 8px;
 }
 
 @media (max-width: 480px) {
