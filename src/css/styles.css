@@ -38,6 +38,13 @@ a {
 	text-decoration: none;
 }
 
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  outline: none;
+}
+
 .section {
 	padding: 120px 0;
 }
@@ -154,7 +161,6 @@ a {
 	height: 12px;
 	border-radius: 50%;
 	border: 1px solid #cccccc;
-	outline: none;
 	background-color: transparent;
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
@@ -182,7 +188,6 @@ a {
 	border-radius: 42px;
 	padding: 30px;
 	border: none;
-	outline: none;
 }
 
 @media (max-width: 480px) {
@@ -229,7 +234,6 @@ a {
 	font-size: 2.5rem;
 	background-color: transparent;
 	border: none;
-	outline: none;
 	z-index: 10;
 	cursor: pointer;
 }
