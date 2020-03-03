@@ -146,9 +146,9 @@ body:not(.user-is-tabbing) textarea:focus {
 
 .panel {
 	list-style: none;
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	display: flex;
 }
 
 .panel__item:not(:last-child) {
